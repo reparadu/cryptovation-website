@@ -1,0 +1,149 @@
+/* lg */ 
+@media (min-width: 1400px) {
+	
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav li a {
+		font-size: 14px;
+		line-height: 40px;
+		text-transform: capitalize;
+		padding: 10px 5px;
+	}
+	.overview-pointer ul li.one {
+		left:18%;
+	}
+	.overview-pointer ul li.four {
+		left:15%;
+	}
+	.overview-pointer ul li.five {
+		left:0;
+	}
+	.overview-pointer ul li.eight{
+		left:70%;
+	}
+	.overview-pointer ul li.seven {
+		left: 28%;
+		top: 43%;
+	}
+	.overview-pointer ul li.two {
+		left:38%;
+	}
+	#video-section .video{
+		margin-bottom:45px;
+	}
+	#product-details .part-one .product-info, 
+	#product-details .part-three .product-info {
+		padding-right: 30px;
+		position: relative;
+		z-index: 1;
+	}
+	#product-details .product-image {
+		width:100%;
+		opacity:0.2;
+	}
+	.plans .plan {
+		margin-bottom:30px;
+	}
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+	h1 {
+		font-size:28px;
+	}
+	h2{
+		font-size:20px;
+	}
+	h3{
+		font-size:16px;
+	}
+	.padding {
+		padding: 50px 0px;
+	}
+	.section-title {
+		margin-bottom:30px;
+		font-size:14px;
+	}
+	.section-title h1{
+		font-size:28px;
+	}
+	.navbar-nav li a {
+		line-height:22px;
+	}
+	.main-slider .slider-content {
+		font-size:20px;
+	}
+	.main-slider .slider-content h1{
+		font-size:36px;
+	}
+	.main-slider .slider-content h2 {
+		font-size:46px;
+	}
+	
+	.overview-pointer {
+		display:none;
+	}
+	.overview {
+		padding-top: 0;
+	}
+	#description {
+		background-image:inherit;
+	}
+	#video-section .video{
+		margin-right:0;
+	}
+	.video .video-link {
+		font-size:60px;
+		margin-left:-35px;
+	}
+	#product-details .product-image {
+		width: 100%;
+		height: 265px;
+		opacity:0.2;
+	}
+	#product-details .part-one .product-info, 
+	#product-details .part-three .product-info {
+		padding-right: 15px;
+		position:relative;
+		z-index:1;
+	}
+	#product-details .part-two .product-info {
+		padding-left: 15px;
+		position:relative;
+		z-index:1;
+	}
+	#product-details .product-info {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+	.plans .plan {
+		margin-bottom:15px;
+	}
+	#call-to-action .col-sm-3 {
+		margin-bottom:35px;
+	}
+	#contact-us .contact-form {
+		padding-top: 50px;
+		padding-bottom: 35px;
+	}
+	#contact-form .btn-primary {
+		font-size:16px;
+	}
+	#footer-bottom {
+		padding: 30px 0px 20px;
+	}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+	
+}
+

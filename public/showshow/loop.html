@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<!--title-->
+    <title>Manual Trading !</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="./js/javascript.js"></script>
+    <script type="text/javascript" src="./js/javascriptLoop.js"></script>
+	
+	<!--CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">	
+	<link href="css/vegas.min.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">	
+	
+	<!--Google Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,100,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+	
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body>	
+
+	
+	<div id="main-slider-wrapper">
+		<div id="slider-section">
+			<div class="container main-slider">
+				<div class="slider-content">
+
+					<div class="row">
+
+						<table>
+           <tr>
+            <td>
+                 
+                 <td><div class="logo"><img src="images/ETHlogo.png" width="100" height="100"></div></td>
+                 <td><div class="logo"><img src="images/XRPlogo.png" width="100" height="100"></div></td>
+                 
+                
+            </td>
+            </tr>
+        <tr>
+
+        <td><center><img src="images/BXlogo.png" width="100" height="50"></center></td>
+     
+        
+    <td><div class="eth">
+
+
+
+        <table>
+			<tr>
+   				<th><h3 class="price" id="BX-ETH_buychoice"></h3></th>
+  			</tr>
+	  	<tr>
+	    	<td><h3 class="price2" id="BX-ETH_sellchoice"></h3></td>
+	    	
+	  	</tr>
+
+        </table>
+        </div>
+    </td>
+        
+    <td>
+        <div class="xrp">
+        <table>
+
+			<tr>
+   				<th><h3  class="price" id="BX-XRP_buychoice"></h3></th>
+  			</tr>
+	  		<tr>
+	    		<td><h3 class="price2" id="BX-XRP_sellchoice"></h3></td>
+	    	
+	  		</tr>
+        </table>
+        </div>
+    </td>
+</tr>
+
+    
+
+    
+    
+
+    <tr>
+        <td>
+        <center><img src="images/krakenlogo.png" width="100" height="100"></center></td>
+        
+        <td><div class="eth">
+        <table>
+        	<tr>
+        		<th><h3 class="price" id="KK-ETH_buychoice"></h3></th>
+        	</tr>
+        	<tr>
+        		<th><h3 class="price2" id="KK-ETH_sellchoice"></h3></th>
+        	</tr>
+        </table>
+            
+        </div></td>
+        <td><div class="xrp">
+        <table>
+        	<tr>
+        		<td><h3 class="price" id="KK-XRP_buychoice"></h3></th>
+        	</tr>
+        	<tr>
+        		<th><h3 class="price2" id="KK-XRP_sellchoice"></h3></th>
+        	</tr>
+        </table>
+
+        
+    </tr>
+
+    <tr>
+        <td>
+        <center><img src="images/Coinonelogo.png" width="100" height="100"></center></td>
+        
+        <td><div class="eth">
+        <table>
+        	<tr>
+        		<th><h3 class="price" id="CO-ETH_buychoice"></h3></th>
+        	</tr>
+        	<tr>
+        		<th><h3 class="price2" id="CO-ETH_sellchoice"></h3></th>
+        	</tr>
+        </table>
+            
+        </div></td>
+        <td><div class="xrp">
+        <table>
+        	<tr>
+        		<th><h3 class="price" id="CO-XRP_buychoice"></h3></th>
+        	</tr>
+        	<tr>
+        		<th><h3 class="price2" id="CO-XRP_sellchoice"></h3></th>
+        	</tr>
+        </table>
+
+        
+    </tr>
+
+
+
+    
+
+    <tr>
+        <td>
+        <center><img src="images/poloniexlogo.png" width="100" height="100"></center></td>
+        
+        <td><div class="eth">
+        <table>
+        	<tr>
+        		<th><h3 class="price" id="PO-ETH_buychoice"></h3></th>
+        	</tr>	
+        	<tr>
+        		<th><h3 class="price2" id="PO-ETH_sellchoice"></h3></th>
+        	</tr>
+        </table>
+            
+        </div></td>
+        <td><div class="xrp">
+        <table>
+        	<tr>
+        		<th><h3 class="price" id="PO-XRP_buychoice"></h3></th>
+        	</tr>
+        	<tr>
+        		<th><h3 class="price2" id="PO-XRP_sellchoice"></h3></th>
+        	</tr>
+        </table>
+            
+        
+    </tr></table>
+
+					</div>
+				</div>
+			</div>
+		</div><!--/#slider section-->
+	</div><!--/#main-slider-wrapper-->
+
+    <div id="product-details">
+        <div class="product-details part-one">
+            <div class="container">
+                 <table>
+                 <tr>
+                    <th>
+                    <div class="product-info">
+                            <h1>Example for Arbitrage Loop </h1>
+                            <h3>1. Deposit your initial fund (THB)<br></h3>
+                            <h3>2. Buy ETH at BX.in.th  <a id="amountETH"></a> <br></h3>
+                            <h3>3. Withdrawal ETH to Poloniex <a id="amountETH1"></a><br></h3>
+                            <h3>4. Sell ETH at Poloniex  <a id="amountUSD"></a><br></h3>
+                            <h3>5. Buy XRP at Poloniex  <a id="amountXRP"></a><br></h3>
+                            <h3>6. Withdawal XRP to BX.in.th  <a id="amountXRP1"></a><br></h3>
+                            <h3>7. Sell XRP at BX.in.th  <a id="amountTHB"></a><br></h3>
+                            <h3>8. Retune fund (THB)  <a id="amountTHB1"></a><br></h3>
+                            <h3>9. Profit (THB)  <a id="profit1"></a></h3>
+                
+                    </div>
+                    </th>
+                    <th>
+                        <h1 id="CO-KK_ETH-XRP" style=" font-size: 180px; padding-left: 200px">2%</h1>
+                    </th>
+                </tr>
+                </table>              
+            </div>
+            
+        </div>
+     </div><!--/#product-details-->
+	
+	
+	
+	  
+	
+	<!--/#scripts--> 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  	<script type="text/javascript" src="js/gmaps.js"></script>
+	<script type="text/javascript" src="js/jquery.parallax.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/vegas.min.js"></script> 
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.nav.js"></script> 
+	<script type="text/javascript" src="js/coundown-timer.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

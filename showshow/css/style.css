@@ -1,0 +1,66 @@
+
+  h2 {
+    color: black;
+    
+    padding: 0px;
+
+  }
+  .btc {
+    background-color: rgba(255, 204, 102, 0.2);
+    width: 400px;
+    padding: 0px;
+    margin-top: 0px;
+}
+  .eth {
+    
+    width: 400px;
+    padding: 0px;
+    margin-top: 0px;
+}
+  .xrp {
+    
+    width: 400px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.etc {
+    background-color: rgba(255, 204, 204, 0.2);
+    width: 400px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.ltc {
+    background-color: rgb(240, 240, 245);
+    width: 400px;
+    padding: 0px;
+    margin-top: 0px;
+}
+ 
+ .price {
+  margin-top: 0px;
+  padding-left: 200px;
+  padding-top: 10px;
+ }
+ .price2 {
+  margin-top: 0px;
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+ }
+ 
+ .eth1 {
+  margin-top: 5px;
+  padding-left: 250px;
+ }
+ .xrp1{
+  margin-top: 5px;
+  padding-left: 100px;
+ }
+.logo {margin-top: 0px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+
+}
+.profit {
+  font-size: 500px;
+}
